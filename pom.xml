@@ -36,7 +36,7 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-resources-plugin</artifactId>
-                <version>2.5</version>
+                <version>2.6</version>
                 <configuration>
                     <encoding>UTF-8</encoding>
                 </configuration>
@@ -44,10 +44,10 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
-                <version>2.5.1</version>
+                <version>3.0</version>
                 <configuration>
-                    <source>1.5</source>
-                    <target>1.5</target>
+                    <source>1.6</source>
+                    <target>1.6</target>
                     <optimize>true</optimize>
                 </configuration>
             </plugin>
@@ -71,6 +71,6 @@
     </build>
 
     <properties>
-        <tapestry-release-version>5.3.4</tapestry-release-version>
+        <tapestry-release-version>5.3.6</tapestry-release-version>
     </properties>
 </project>
